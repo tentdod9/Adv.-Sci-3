@@ -15,4 +15,4 @@ title(sprintf("Acceptance-Rejection Method on Normal Distribution with mu = %d a
 plot(x,target,'black',LineWidth=2);
 scatter(x_rand(y_rand < distribution(mu,sigma,x_rand)),y_rand(y_rand < distribution(mu,sigma,x_rand)),[],'blue',"o");
 scatter(x_rand(y_rand > distribution(mu,sigma,x_rand)),y_rand(y_rand > distribution(mu,sigma,x_rand)),[],'red',".");
-legend('Normal Distribution','Accept','Reject')
+legend('Normal Distribution','Accept','Reject');
